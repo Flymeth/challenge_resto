@@ -7,7 +7,7 @@
 
     let loaded = false;
 
-    const fakeLoadingSeconds = 2//s -> Pour admirer mon beau loader (j'y ai mis du coeur)
+    const fakeLoadingSeconds = 5//s -> Pour admirer mon beau loader (j'y ai mis du coeur)
     
     let headerAnimation: typeof Header.prototype.animate;
     function then() {
