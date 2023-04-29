@@ -1,10 +1,10 @@
 <script lang="ts">
     import logo from "../assets/logo.svg"
-    import Transitor from "../lib/transitor.svelte";
+    import Transition from "../lib/transition.svelte";
 </script>
 
 <footer>
-    <Transitor toColor="var(--background-color)" height={30} reverse={"x"}/>
+    <Transition toColor="var(--background-color)" height={30} reverse={"x"}/>
 
     <img src={logo} alt="TOKIEST's logo">
     <div class="infos">

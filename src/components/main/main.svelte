@@ -3,11 +3,11 @@
     import Vins from "../../lib/vins.svelte";
     import Infos from "../../lib/infos.svelte";
     import Section from "./section.svelte";
-    import Transitor from "../../lib/transitor.svelte";
+    import Transition from "../../lib/transition.svelte";
 </script>
 
 <main>
-    <Transitor toColor= "var(--background-color)"/>
+    <Transition toColor= "var(--background-color)"/>
 
     <article class="content" style="font-size: 25px;">
         <Section title="Notre Carte" id="carte">
