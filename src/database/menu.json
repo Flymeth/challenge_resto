@@ -1,0 +1,71 @@
+{
+    "allDays": {
+        "entries": [
+            {"name": "Escargots de Chevenoz", "price": 17.00},
+            {"name": "Légumes printaniers", "price": 12.50},
+            {"name": "Oeuf parfait, lardons", "price": 13.50}
+        ],
+        "dishes": [
+            {"name": "Volaille de Bresse", "price": 28.50},
+            {"name": "Féra soufflée", "price": 28.00},
+            {"name": "Truite de Savoie", "price": 24.00}
+        ],
+        "desserts": [
+            {"name": "Fraises de France", "price": 8.00},
+            {"name": "Soufflé au chocolat", "price": 11.50},
+            {"name": "Salade de fruit", "price": 7.50}
+        ],
+        "softdrinks": [
+            {"name": "Orangina", "price": 5.00},
+            {"name": "Coca-Cola Original", "price": 5.00},
+            {"name": "Coca-Cola Zéro", "price": 5.00},
+            {"name": "Jus de fruit", "price": 6.00},
+            {"name": "Icetea", "price": 5.00}
+        ],
+        "harddrinks": [
+            {"name": "Pastis", "price": 8.00},
+            {"name": "Martini blanc / rouge", "price": 7.00},
+            {"name": "Porto Burmester Twny", "price": 11.50}
+        ],
+        "hotdrinks": [
+            {"name": "Expresso", "price": 3.00},
+            {"name": "Capuccino", "price": 6.50},
+            {"name": "Chocolat Chaud", "price": 5.00}
+        ]
+    },
+    "today": {
+        "entry": {"name": "Salade Norvégienne", "price": 14.20},
+        "dish": {"name": "Rôtie de Veau", "price": 31.90},
+        "dessert": {"name": "Boule de glasse noisette, Napage Caramoule", "price": 12.50}
+    },
+    "menus": [
+        {
+            "name": "Minouchons",
+            "price": 16.00,
+            "includes": [
+                "1 Burger *Minuch*'cule",
+                "1 Dessert au choix",
+                "1 Boisson *Soft*astic"
+            ]
+        },
+        {
+            "name": "Rapidos",
+            "price": 27.00,
+            "includes": [
+                "1 Plat au choix",
+                "1 entrée ou dessert au choix",
+                "1 boisson au choix"
+            ]
+        },
+        {
+            "name": "Gourmet",
+            "price": 39.50,
+            "includes": [
+                "1 entrée au choix",
+                "1 plat au choix",
+                "1 dessert au choix",
+                "1 boisson au choix"
+            ]
+        }
+    ]
+}

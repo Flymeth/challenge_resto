@@ -1,0 +1,7 @@
+[
+    {"name": "Clairette de Die", "img": "clairette-de-die.png", "prices": {"glass": 14.2, "bottle": 56.50}},
+    {"name": "Vin Saint Amour", "img": "saint-amour.png", "prices": {"glass": 12, "bottle": 42}},
+    {"name": "Ile de Beauté rosé", "img": "ile-de-beaute.png", "prices": {"glass": 13.5, "bottle": 49}},
+    {"name": "Coteaux du Lyonnais", "img": "coteaux-du-lyonnais.png", "prices": {"glass": 13, "bottle": 45}},
+    {"name": "Château Margaux", "img": "chateau-margaux.png", "prices": {"glass": 16.50, "bottle": 58}}
+]

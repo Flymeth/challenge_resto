@@ -1,0 +1,35 @@
+@mixin dashedLine($height, $color: var(--color-black)) {
+    height: $height;
+    background: linear-gradient(
+        to right,
+        $color 40%,
+        #00000000 0%
+    );
+    background-repeat: repeat-x;
+    background-size: $height * 5;
+    background-position: center;
+    position: relative;
+    padding: 0 $height;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: $height;
+        width: $height * 3;
+        height: $height * 3;
+        translate: -50% -50%;
+        rotate: 45deg;
+        background-color: $color;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: $height;
+        width: $height * 3;
+        height: $height * 3;
+        translate: 50% -50%;
+        rotate: 45deg;
+        background-color: $color;
+    }
+}

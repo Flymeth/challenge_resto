@@ -1,0 +1,62 @@
+@font-face {
+  font-family: coolvetica;
+  src: url("./assets/fonts/coolvetica\ rg.otf") format("opentype");
+  font-style: normal;
+}
+@font-face {
+  font-family: coolvetica;
+  src: url("./assets/fonts/coolvetica\ rg\ it.otf") format("opentype");
+  font-style: italic;
+}
+@font-face {
+  font-family: "coolvetica crammed";
+  src: url("./assets/fonts/coolvetica\ crammed\ rg.otf") format("opentype");
+}
+@font-face {
+  font-family: "coolvetica condensed";
+  src: url("./assets/fonts/coolvetica\ condensed\ rg.otf") format("opentype");
+}
+@font-face {
+  font-family: "coolvetica compressed";
+  src: url("./assets/fonts/coolvetica\ compressed\ hv.otf") format("opentype");
+}
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-darkgreen: #012622;
+  --rgb-darkgreen: 1, 38, 34;
+  --color-green: #003B36;
+  --rgbe-green: 0, 59, 54;
+  
+  --color-orange: #E98A15;
+  --rgb-orange: 233, 138, 21;
+  --color-purple: #59114D;
+  --rgb-purple: 89, 17, 77;
+
+  --color-black: #000000;
+  --rgb-black: 0, 0, 0;
+  --color-white: #ECE5F0;
+  --rgb-white: 236, 229, 240;
+
+  --color-primary: var(--color-orange);
+  --rgb-primary: var(--rgb-orange);
+
+  --color-secondary: var(--color-purple);
+  --rgb-secondary: var(--rgb-purple);
+
+  background: var(--color-darkgreen);
+  scroll-padding-top: 65px;
+  scroll-behavior: smooth !important;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  scroll-behavior: smooth;
+  font-family: "coolvetica compressed";
+}
